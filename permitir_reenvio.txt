@@ -1,0 +1,9 @@
+sudo sysctl -w net.ipv4.ip_forward=1
+#Alternativa
+ech 1 > /proc/sys/net/ipv4/ip_foward
+
+#Para que sea permanente
+Editar el ficher /etc/sysctl.conf para que net.ipv4.ip
+_foward=1.
+
+

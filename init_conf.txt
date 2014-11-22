@@ -1,0 +1,12 @@
+#!/bin/bash
+# Paquete para Wi-Fi HotsPot
+sudo apt-get install hostapd udhcpd;
+
+# Seguir tutorial
+# http://elinux.org/RPI-Wireless-Hotspot
+
+# Si da error en el proceso de la pagina
+# http://jenssegers.be/blog/43/realtek-rtl8188-based-access-point-on-raspberry-pi
+
+
+iptables -t nat -A POSTROUTING -j MASQUERADE
