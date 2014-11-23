@@ -19,6 +19,7 @@ cp hostapd.conf /etc/hostapd
 cp hostapd /etc/default
 cp local.rc /etc/
 cp iptables.xway /etc/
+cp sysctl.conf /etc/
 
 sudo update-rc.d hostapd enable
 sudo update-rc.d udhcpd enable
